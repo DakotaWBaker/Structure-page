@@ -86,9 +86,25 @@ h1 {
 }
 
 header img {
-    display: block;
+    position: absolute;
     height: 60px;
     padding-top: 20.15px;
+    float: left;
+}
+form {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 1.5px 7px 1.5px 7px;
+    background-color: rgb(252, 163, 17, 0.5);
+    margin-bottom: 10px;
+    color: #1f3463;
+}
+button {
+    transform: translate(11.3em, -.8em);
+    border: 2px solid #1f3463;
+    border-radius: 6px;
+    background-color: rgb(252, 163, 17, 0.5);
+    color: #1f3463;
 }
 
 nav {
