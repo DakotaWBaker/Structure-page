@@ -117,15 +117,26 @@ nav span {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-
+    padding: 1em 3em;
+     rgb(0, 255, 0, 0.5);
+    transform: translatey(-1em);
+    transition: all (0.30s);
 }
-.white:hover {
-    background-color: white;
-    border: 2px solid green;
-    border-radius: 10px;
+nav span:hover {
+border: 3px solid #f1ff5c;
+color: white;
+background-color: rgba(0, 255, 0,);
+box-shadow: 0 0.7em 0.7em -0.4em #f1ff5c;
+transform: translatey(-26px);
+cursor: pointer;
 }
-
-
+nav a:hover {
+    border: 2px solid #f1ff5c;
+    color: white;
+    background-color: rgba(0, 255, 0,);
+    box-shadow: 0 0.7em 0.7em -0.4em #f1ff5c;
+    transform: translatey(-26px);
+    }
 
 /* || main layout */
 
