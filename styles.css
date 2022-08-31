@@ -8,7 +8,7 @@ body {
 
 html {
     font-size: 10px;
-    background-color: #a9a9a9;
+   background-color: #a9a9a9;
 }
 
 body {
@@ -23,14 +23,15 @@ h1,
 h2,
 h3 {
     font-family: 'Cinzel Decorative', cursive;
-    color: #2a2a2a;
+    color: #1f3463;
 }
 
 p,
 input,
 li {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #2a2a2a;
+    /*color: #2a2a2a;*/
+    color: #1f3463;
 }
 
 h1 {
@@ -63,7 +64,7 @@ header {
 }
 
 body>* {
-    background-color: red;
+    background-color: #1f3463;
     padding: 1%;
 }
 
@@ -74,7 +75,8 @@ article,
 aside,
 footer,
 section {
-    background-color: rgba(0, 255, 0, 0.5);
+    /*background-color: rgba(0, 255, 0, 0.5);*/
+    background-color: rgb(252, 163, 17, 0.5);
     padding: 1%;
 }
 
@@ -116,25 +118,24 @@ nav span {
     line-height: 1.7;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: #1f3463;
     padding: 1em 3em;
-     rgb(0, 255, 0, 0.5);
     transform: translatey(-1em);
     transition: all (0.30s);
 }
 nav span:hover {
-border: 3px solid #f1ff5c;
+border: 2px solid #1f3463;
 color: white;
 background-color: rgba(0, 255, 0,);
-box-shadow: 0 0.7em 0.7em -0.4em #f1ff5c;
+box-shadow: 0 0.7em 0.7em -0.4em #1f3463;
 transform: translatey(-26px);
 cursor: pointer;
 }
 nav a:hover {
-    border: 2px solid #f1ff5c;
+    border: 2px solid #1f3463;
     color: white;
     background-color: rgba(0, 255, 0,);
-    box-shadow: 0 0.7em 0.7em -0.4em #f1ff5c;
+    box-shadow: 0 0.7em 0.7em -0.4em #1f3463;
     transform: translatey(-26px);
     }
 
