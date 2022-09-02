@@ -100,11 +100,13 @@ form {
     color: #1f3463;
 }
 button {
-    transform: translate(11.3em, -.8em);
     border: 2px solid #1f3463;
     border-radius: 6px;
     background-color: rgb(252, 163, 17, 0.5);
     color: #1f3463;
+}
+label {
+    display: flex;
 }
 
 nav {
@@ -126,8 +128,7 @@ nav li {
     flex: 1;
 }
 
-nav a,
-nav span {
+nav a {
     display: inline-block;
     font-size: 2rem;
     height: 3rem;
@@ -139,18 +140,10 @@ nav span {
     transform: translatey(-1em);
     transition: all (0.30s);
 }
-nav span:hover {
-border: 2px solid #1f3463;
-color: white;
-background-color: rgba(0, 255, 0,);
-box-shadow: 0 0.7em 0.7em -0.4em #1f3463;
-transform: translatey(-26px);
-cursor: pointer;
-}
+
 nav a:hover {
     border: 2px solid #1f3463;
     color: white;
-    background-color: rgba(0, 255, 0,);
     box-shadow: 0 0.7em 0.7em -0.4em #1f3463;
     transform: translatey(-26px);
     }
